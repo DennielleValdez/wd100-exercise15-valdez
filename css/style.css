@@ -1,0 +1,67 @@
+html body{
+    background-image: url(../img/bgarcade2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    border-style: double;
+    border-color: aquamarine;
+    box-shadow: 2px 18px 44px #1ccdb5bf;
+    padding: 20px;
+    background-color: rgb(0 0 0 / 79%);
+    color: bisque;
+    margin-top: 150px;
+    border-radius: 20px;
+    font-family: "Jersey 10", sans-serif;
+}
+.letsplay h1{
+    font-size: 80px;
+    color: aquamarine;
+    letter-spacing: 8px;
+    word-spacing: 10px;
+    text-shadow:  5px 5px 20px aquamarine;
+}
+.header i{
+    font-size: 30px;
+    text-shadow: aquamarine 2px 2px 15px;
+}
+
+.choices img{
+    width: 85px;
+}
+
+.choices button{
+    border-radius: 70px;
+    margin: 10px;
+}
+
+.choices button:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+.result h1{
+    font-size: 100px;
+    letter-spacing: 8px;
+    color: hsl(39deg 100% 42.54%);
+    text-shadow: red 10px 5px 20px;
+}
+
+.scoreboard{
+    margin: auto;
+    border-style: solid;
+    border-color: aquamarine;
+    height: 60px;
+    width: 320px;
+    padding: 10px;
+    box-shadow:  5px 3px 8px  aquamarine;
+    letter-spacing: 8px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.indiResult h1{
+    font-size: 70px;
+    letter-spacing: 8px;
+}
